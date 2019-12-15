@@ -32,6 +32,7 @@ public class Signonpage
 	
 	public void verifySignOnpage()
 	{
+		System.out.println("verifySignOnpage");
 		boolean flag=objsignonimg.isDisplayed();
 		System.out.println("SignOn page is displayed: "+flag);
 	}
