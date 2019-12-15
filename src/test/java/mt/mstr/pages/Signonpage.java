@@ -32,12 +32,14 @@ public class Signonpage
 	
 	public void verifySignOnpage()
 	{
+		
 		boolean flag=objsignonimg.isDisplayed();
 		System.out.println("SignOn page is displayed: "+flag);
 	}
 	
 	public void enterUsername(String usernm)
 	{
+		System.out.println("enterUsername");
 		objusernm.sendKeys(usernm);
 	}
 	
